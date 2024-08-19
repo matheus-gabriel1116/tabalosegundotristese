@@ -1,67 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Da Cidade ao Campo: Colhendo Oportunidade</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Você decide o futuro da IA</title>
 </head>
+
 <body>
-    <header>
-        <h1>Da Cidade ao Campo</h1>
-        <p>Colhendo Oportunidade</p>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#oportunidades">Oportunidades</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>**Da Cidade ao Campo: Colhendo Oportunidade**
-
-            Nos últimos anos, um movimento crescente tem atraído pessoas das áreas urbanas em direção ao campo, em busca de uma vida mais simples, sustentável e conectada à natureza. "Da Cidade ao Campo: Colhendo Oportunidade" é mais do que um lema; é um convite para explorar novas possibilidades e redescobrir o valor do que está ao nosso redor.
-            
-            A vida nas cidades, embora vibrante e cheia de oportunidades, muitas vezes pode ser estressante e isolante. O ritmo acelerado, a poluição e a falta de espaço verde têm levado muitos a refletir sobre suas prioridades e estilo de vida. Nesse contexto, a transição para o campo se apresenta como uma alternativa atraente. Aqui, as pessoas não apenas buscam escapar do caos urbano, mas também desejam se reconectar com suas raízes, com a terra e com uma comunidade mais íntima.
-            
-            O campo oferece uma diversidade de oportunidades que vão além da agricultura tradicional. Desde a produção de alimentos orgânicos até o desenvolvimento de negócios sustentáveis, as possibilidades são vastas. Muitos têm encontrado sucesso em pequenas propriedades, cultivando hortas, criando animais e explorando o turismo rural. Além disso, a digitalização e o acesso à tecnologia têm permitido que empreendedores rurais alcancem mercados mais amplos, promovendo seus produtos e serviços online.
-            
-            Ao se mudar para o campo, as pessoas também têm a chance de adotar um estilo de vida mais saudável e equilibrado. A rotina se torna menos frenética, permitindo um maior contato com a natureza, práticas de cultivo sustentável e uma alimentação mais nutritiva. As interações sociais se tornam mais significativas, com comunidades que se apoiam mutuamente e compartilham conhecimentos.
-            
-            Entretanto, essa mudança não é isenta de desafios. A adaptação a um novo ambiente, a necessidade de adquirir habilidades práticas e o enfrentamento de incertezas econômicas são aspectos que exigem coragem e planejamento. No entanto, aqueles que se aventuram nessa jornada frequentemente descobrem uma riqueza de experiências e um senso renovado de propósito.
-            
-            "Da Cidade ao Campo: Colhendo Oportunidade" representa um novo capítulo na vida de muitos, onde a busca por qualidade de vida e sustentabilidade se entrelaçam com a realização pessoal e profissional. Ao abraçar essa transformação, não apenas colhemos os frutos de nossas escolhas, mas também contribuímos para um futuro mais sustentável e harmonioso, onde a conexão com a terra e a comunidade se tornam a base de uma vida plena e gratificante.</p>
-    </section>
-
-    <section id="oportunidades">
-        <h2>Oportunidades</h2>
-        <p>Descubra histórias de sucesso e dicas sobre como iniciar uma nova vida no campo.</p>
-    </section>
-
-    <section id="blog">
-        <h2>Blog</h2>
-        <p>Leia artigos sobre agricultura, sustentabilidade e experiências de pessoas que mudaram de vida.</p>
-    </section>
-
-    <section id="contato">
-        <h2>Contato</h2>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Da Cidade ao Campo. Todos os direitos reservados.</p>
-    </footer>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro da IA</h1>
+        <div class="tela-inicial">
+            <p>Novembro de 2022, a humanidade se viu em uma realidade perturbadora.
+                De repente, percebemos que as máquinas evoluíram para além do que imaginávamos.
+                Agora, elas escrevem e falam de um jeito tão parecido com humanos que é quase impossível diferenciar
+                quem foi que escreveu ou falou o que.
+                Em meio a esse caos de identidade, uma missão surgiu.
+                Nosso objetivo: explorar o impacto da Inteligência Artificial (IA) em nossas vidas e confrontar as
+                possibilidades que o futuro nos reserva.
+                O mundo nunca mais será o mesmo.
+            </p>
+            <button class="iniciar-btn">Iniciar</button>
+        </div>
+        <div class="caixa-perguntas"></div>
+        <div class="caixa-alternativas"></div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado"></p>
+            <button class="novamente-btn">Jogar novamente</button>
+        </div>
+    </div>
+    <script type="module" src="js/aleatorio.js"></script>
+    <script type="module" src="js/perguntas.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
+
 </html>
